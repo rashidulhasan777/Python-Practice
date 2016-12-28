@@ -1,1 +1,1 @@
-
+Need to understand save variable with shelve module and pprint.pformat function. After strugling with these, created a program called passwordManager.py using file which will update variables by updating whole program.

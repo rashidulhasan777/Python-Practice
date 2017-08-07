@@ -11,7 +11,7 @@ sheet=wb.get_sheet_by_name('Pricing Section')
 browser=webdriver.Firefox()
 browser.get('https://www.aliexpress.com/')
 r=input()
-for row in range(402, 488):
+for row in range(2, 488):
     url=sheet.cell(row=row, column=4).value
     if sheet.cell(row=row-1, column=1).value==sheet.cell(row=row, column=1).value:
         sheet.cell(row=row, column=7).value=sheet.cell(row=row-1, column=7).value
